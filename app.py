@@ -44,7 +44,7 @@ st.markdown("""<hr style="height:2px;border:none;color:#e6e6e6;background-color:
 def load_data():
     try:
         # The file is named "Input.csv" and attached. If running locally, make sure it's in your working directory.
-        df = pd.read_csv(r"C:\Users\DELL\Desktop\new\Data\Ecommerce_Final (1).csv")
+        df = pd.read_csv(r"Ecommerce_Final (1).csv")
         return df
     except Exception as e:
         return None
@@ -240,3 +240,4 @@ elif page == "📊 Prediction":
             st.markdown("<div style='text-align:center;font-size:1.1rem;'>🎉 Great deals await! Use data to win the smartphone game. 📱</div>", unsafe_allow_html=True)
 
     st.markdown("</div>", unsafe_allow_html=True)
+
