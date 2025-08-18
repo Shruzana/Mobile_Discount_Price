@@ -152,6 +152,7 @@ elif page == "ℹ️ Overview":
                 <b>Features Used:</b>
                 <ul>
                     <li>Brand 🏷️</li>
+                    <li>Model 🏷️</li>
                     <li>RAM 💾</li>
                     <li>ROM 📂</li>
                     <li>Display Size 📱</li>
@@ -240,4 +241,5 @@ elif page == "📊 Prediction":
             st.markdown("<div style='text-align:center;font-size:1.1rem;'>🎉 Great deals await! Use data to win the smartphone game. 📱</div>", unsafe_allow_html=True)
 
     st.markdown("</div>", unsafe_allow_html=True)
+
 
